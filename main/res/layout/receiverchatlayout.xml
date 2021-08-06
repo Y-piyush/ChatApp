@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="60dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/receiverchatdrawable"
+        android:id="@+id/receiverchat">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="receiver b message display here."
+            android:paddingBottom="7dp"
+            android:textColor="@color/black"
+android:paddingLeft="3dp"
+            android:paddingRight="45dp"
+            android:textSize="15sp"
+
+            android:id="@+id/receivermessage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/receivermessage"
+            android:text="20:00 AM"
+
+
+            android:layout_marginLeft="-45dp"
+
+            android:id="@+id/receivermessagetime"
+            android:layout_alignBottom="@id/receivermessage"
+
+
+            android:textSize="10sp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
